@@ -38,7 +38,7 @@ const newPost = { ...form };
    });
  
    setForm({ title: "", postText: "" });
-   navigate("/");
+   navigate("*");
 }
 
 //Modal show/hide
