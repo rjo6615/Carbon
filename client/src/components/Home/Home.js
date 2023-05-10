@@ -70,7 +70,7 @@ function Home() {
   ];
   return (
     <center className="pb-4">
-    <div class="container">
+    <div className="container">
   <Row xs={1} md={2} lg={3} xl={4} className="g-4 mx-4">
     {cardInfo.map((el) => (         
       <Col>   
